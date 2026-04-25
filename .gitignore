@@ -1,4 +1,16 @@
 # Игнорировать папки __pycache__ на любом уровне вложенности
 __pycache__/
 # Игнорировать все файлы с расширением .pyc
-*.pyc
+*.pyc# Datasets and build artifacts
+**/datasets/
+**/build/
+*.c
+*.pyd
+*.obj
+*.exp
+*.lib
+
+# Reference repo and helper files
+DL_RusyaevaSP_6401/
+_PROMPT_FOR_LAB3_4.md
+_strip_past.py
